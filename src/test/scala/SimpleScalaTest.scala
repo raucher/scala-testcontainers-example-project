@@ -1,6 +1,6 @@
 import org.scalatest.flatspec.AnyFlatSpec
 
-class SimpleTestcontainersTest extends AnyFlatSpec {
+class SimpleScalaTest extends AnyFlatSpec {
   "Test" should "assert true" in {
     assert(true)
   }
