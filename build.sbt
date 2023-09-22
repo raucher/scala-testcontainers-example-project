@@ -11,8 +11,9 @@ lazy val root = (project in file("."))
   )
 
 libraryDependencies ++= Seq(
+  "org.postgresql" % "postgresql" % "42.6.0",
+  "ch.qos.logback" % "logback-classic" % "1.3.10",
   "org.scalatest" %% "scalatest" % "3.2.17" % Test,
-  "ch.qos.logback" % "logback-classic" % "1.3.10" % Test,
   "com.dimafeng" %% "testcontainers-scala-scalatest" % testcontainersScalaVersion % Test,
   "com.dimafeng" %% "testcontainers-scala-postgresql" % testcontainersScalaVersion % Test,
 )
